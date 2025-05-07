@@ -17,16 +17,16 @@
         <section class="text-center position-relative vh-100 w-100 p-0 m-0" style="overflow: hidden;">
         <img src="{{ asset('img/qcu_library.png') }}" id="homepage" alt="QCU Library" style="width: 100vw; height: 100vh; object-fit: cover; filter: brightness(50%);">
         <div class="position-absolute w-100 text-center" style="top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
-            <h2 class="text-white" style="font-size: 7rem; font-weight: bold;">
+            <h2 class="text-white" style="font-size: clamp(3rem, 5vw, 7rem); font-weight: bold;">
                 QCU Library Management System
             </h2>
-            <a href="https://maps.app.goo.gl/2vzsFHxe95cbiea18"  class="btn btn-primary mt-3 rounded-pill font-weight-bold">
+            <a href="https://maps.app.goo.gl/2vzsFHxe95cbiea18"  class="btn btn-primary mt-3 rounded-pill font-weight-bold" style="font-size: clamp(1rem, 1.5vw, 1.2rem); padding: clamp(0.8rem, 1.5vw, 1.2rem) clamp(1.5rem, 2vw, 2rem);">
                 Navigate QCU Libraries
             </a>
         </div>
     </section>
 
-            <h2 class="text-center mt-5 text-white">OUR LIBRARY SERVICES</h2>
+            <h2 class="text-center mt-5 text-white" style="font-size: clamp(2rem, 3vw, 3rem);">OUR LIBRARY SERVICES</h2>
             <div class="container mb-5">
                 <div class="box bi bi-journals">
                     <h3>Book Collection</h3>
